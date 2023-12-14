@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> {% block title %} {% endblock%} </title>
+</head>
+<body>
+<header>
+    <div style="display:flex;">
+    <h1> Интернет-магазин одежды </h1>
+    <menu style="display:flex;">
+        <li><a href="/base/">Главная</a></li>
+        <li><a href="/men_clothes/">Мужская одежда</a></li>
+    <li><a href="/women_clothes/">Женская одежда</a></li></menu>
+    </div>
+    </header>
+{% block content %}
+{% endblock %}
+<footer>
+    <p>Все права защищены &copy;</p>
+</footer>
+</body>
+</html>
