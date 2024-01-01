@@ -4,6 +4,8 @@ import sqlalchemy
 import databases
 from typing import List
 
+# Задание 4
+
 app = FastAPI()
 DATABASE_URL = "sqlite:///tasks.db"
 database = databases.Database(DATABASE_URL)
