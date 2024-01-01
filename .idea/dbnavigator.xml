@@ -2,7 +2,7 @@
 <project version="4">
   <component name="DBNavigator.Project.DataEditorManager">
     <record-view-column-sorting-type value="BY_INDEX" />
-    <value-preview-text-wrapping value="true" />
+    <value-preview-text-wrapping value="false" />
     <value-preview-pinned value="false" />
   </component>
   <component name="DBNavigator.Project.DatabaseBrowserManager">
@@ -12,7 +12,7 @@
     <loaded-nodes />
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
-    <connection id="d02905fb-4be2-4363-97e8-2c32187e7fe3">
+    <connection id="d520f757-8759-450d-be92-f3114ad5d3a5">
       <console name="Connection 1" type="STANDARD" schema="" session="Main" />
     </connection>
   </component>
@@ -25,8 +25,8 @@
     <open-files />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
-    <filter-actions connection-id="d02905fb-4be2-4363-97e8-2c32187e7fe3" dataset="main.user" active-filter-id="EMPTY_FILTER">
-      <filter id="9d36a09c-9488-4a5f-b896-2228dd583632" name="Filter 1" temporary="false" custom-name="false" type="basic" join-type="AND">
+    <filter-actions connection-id="d520f757-8759-450d-be92-f3114ad5d3a5" dataset="main.tasks" active-filter-id="EMPTY_FILTER">
+      <filter id="20867e82-7b9b-457b-b149-9d5ede5d0591" name="Filter 1" temporary="false" custom-name="false" type="basic" join-type="AND">
         <condition column="id" operator="=" value="" active="true" />
       </filter>
     </filter-actions>
@@ -54,7 +54,7 @@
   </component>
   <component name="DBNavigator.Project.Settings">
     <connections>
-      <connection id="d02905fb-4be2-4363-97e8-2c32187e7fe3" active="true" signed="true">
+      <connection id="d520f757-8759-450d-be92-f3114ad5d3a5" active="true" signed="true">
         <database>
           <name value="Connection 1" />
           <description value="" />
@@ -71,14 +71,14 @@
           <tns-folder value="" />
           <tns-profile value="" />
           <files>
-            <file path="C:\Users\HUAWEI\OneDrive\Рабочий стол\frameworks\sem_3\instance\users.db" schema="main" />
+            <file path="C:\Users\HUAWEI\OneDrive\Рабочий стол\frameworks\tasks.db" schema="main" />
           </files>
           <type value="NONE" />
           <user value="" />
           <deprecated-pwd value="" />
         </database>
         <properties>
-          <auto-commit value="true" />
+          <auto-commit value="false" />
         </properties>
         <ssh-settings>
           <active value="false" />
